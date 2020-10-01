@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="azimuth">Azimuth: %.0f °</string>
+    <string name="pitch">Pitch: %.0f °</string>
+    <string name="roll">Roll: %.0f °</string>
+    <string name="screen_rotation_value">Screen rotation: %1$d °</string>
+    <string name="button">Button</string>
+    <string name="send_request">Send request</string>
+    <string name="secondActivitybutton">Second Activity</string>
+    <string name="textfield">Text Field</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcomeTextS1">Welcome!
+        Login to play.</string>
+    <string name="nameTextScreen1">Name</string>
+    <string name="nameBoxS1"></string>
+    <string name="ageTextS1">Age</string>
+    <string name="ageBoxS1"></string>
+    <string name="sexTextS1">Gender</string>
+    <string name="male_text_RB">Male</string>
+    <string name="female_text_RB">Female</string>
+    <string name="startButtonS1">Start game</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="player_msg">Player:1 - Please press the button and speak out your choice (Rock, Paper or Scissors)</string>
+    <string name="player1_msg1">Player - 1</string>
+    <string name="playermsg2">Speak out your choice</string>
+    <string name="choiceTxt">Rock - Paper - or - Scissors ?</string>
+    <string name="choicetext">Rock, Paper or Scissors?</string>
+    <string name="clickButtonText">Click the button with microphone.</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="player1msg1_S3">Player - 1</string>
+    <string name="player1TextMsg2">Thank you for selection</string>
+    <string name="player1TextMsg3">Your choice recorded as:</string>
+    <string name="p1ChoiceText"></string>
+    <string name="clickHereS3">Confirm</string>
+    <string name="tryAgain">Try again</string>
+    <string name="title_activity_fourth">FourthActivity</string>
+    <string name="cpu_selected_text">Computer selected:</string>
+    <string name="friend_selected_text">Your friend selected:</string>
+    <string name="cpu_selection_string"></string>
+    <string name="winner_text">The Winner Is:</string>
+    <string name="winner_name"></string>
+    <string name="recordButton">See your records</string>
+    <string name="title_activity_fifth">FifthActivity</string>
+    <string name="findNameText">User Name:</string>
+    <string name="findNameAns"></string>
+    <string name="win_text">WINS</string>
+    <string name="win_answer"></string>
+    <string name="loss_text">LOSSES</string>
+    <string name="loss_ans"></string>
+    <string name="p1_selectionText">You Selected:</string>
+    <string name="p1selectAns"></string>
+    <string name="p1_select_text_ans"></string>
+    <string name="playagain">Play Again</string>
+    <string name="startnewgame">New game</string>
+    <string name="exit_game">Exit</string>
+    <string name="name_last">Name</string>
+    <string name="user_name_ans"></string>
+    <string name="win">Win</string>
+    <string name="win_ans"></string>
+    <string name="loss">Loss</string>
+    <string name="loss_nas"></string>
+    <string name="pagain">Play Again</string>
+    <string name="exit">Exit</string>
+    <string name="single_multi_heading">Choose one:</string>
+    <string name="single_player_btn">Play with computer</string>
+    <string name="multi_player_btn">Play with friend (using Bluetooth)</string>
+
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving the game.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="no_sensor">No sensor</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="z">Z</string>
+    <string name="Latitude_text">Latitude:</string>
+    <string name="Longitude_text">Longitude:</string>
+
+</resources>

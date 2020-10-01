@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.FLASHLIGHT"
+        android:permissionGroup="android.permission-group.HARDWARE_CONTROLS"
+        android:protectionLevel="normal" />
+
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.myapplication.SOS" />
+        <activity android:name="com.example.myapplication.MyCameraActivity" />
+        <activity
+            android:name="com.example.myapplication.CompassActivity"
+            android:screenOrientation="fullSensor" />
+        <activity android:name="com.example.myapplication.LocationActivity" />
+        <activity
+            android:name="com.example.myapplication.SensorActivity"
+            android:label="Lab3"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.myapplication.Serveractivity2" />
+        <activity android:name="com.example.myapplication.ProgressActivity" />
+
+        <receiver android:name="com.example.myapplication.UserChoiceReceiver" >
+            <intent-filter>
+                <action android:name="com.example.rockpaperscissor.BTMSG_INTENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.myapplication.LogIn"
+            android:label="@string/app_name" >
+
+            <!--
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        !
+            -->
+        </activity>
+        <activity
+            android:name="com.example.myapplication.SingleMultiChoiceActivity"
+            android:label="Choose playing mode" />
+        <activity
+            android:name="com.example.myapplication.PlayerChoice"
+            android:label="Make a choice" />
+        <activity
+            android:name="com.example.myapplication.PlayerChoiceDisplay"
+            android:label="Choice display" />
+        <activity
+            android:name="com.example.myapplication.GameResult"
+            android:label="Game Result" />
+        <activity
+            android:name="com.example.myapplication.PlayerStatistics"
+            android:label="Statistics" />
+        <activity
+            android:name="com.example.myapplication.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="Select your friend&apos;s device"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.example.myapplication.BluetoothChat"
+            android:label="Pick your friend" />
+        <activity android:name="com.example.myapplication.ForthActivity" />
+        <activity android:name="com.example.myapplication.ZeroActivity" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.myapplication.FirstActivity" />
+        <activity android:name="com.example.myapplication.SecondActivity" />
+        <activity android:name="com.example.myapplication.ThirdActivity" />
+        <activity android:name="com.example.myapplication.ServerActivity" />
+    </application>
+
+</manifest>
